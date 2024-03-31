@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .parent{
+            background-color: skyblue;
+            color: black;
+            padding: 12px;
+            position: relative;
+        }
+        .child-one{
+            background-color: greenyellow;
+            padding: 12px;
+            position: absolute;
+            top: 0;
+        }
+        .child-two{
+            background-color: orangered;
+            padding: 12px;
+        }
+        .child-three{
+            background-color: palevioletred;
+            padding: 12px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+        parent
+        <div class="child-one child">One</div>
+        <div class="child-two child">Two</div>
+        <div class="child-three child">Three</div>
+    </div>
+</body>
+</html>

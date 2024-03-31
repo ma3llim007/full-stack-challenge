@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: black;
+            color: white;
+        }
+        .row {
+            width: 100vw;
+            height: 100vh;
+            margin-top: 100px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .form{
+            width: 400px;
+            margin: 20px;
+            padding: 25px;
+            background-color: yellow;
+            color: black;
+            border: 1px solid black;
+            border-radius: 9px;
+        }
+        form{
+            margin: 30px 0px;
+        }
+        .form-group{
+            width: 100%;
+            margin: 6px 0;
+            padding: 4px 0;
+        }
+        .form-control{
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid black;
+        }
+        label{
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .btn{
+            width: 100%;
+            padding: 8px;
+        }
+        .btn-purple{
+            background-color: #7562ab;
+            color: white;
+            border: 1px solid black;
+        }
+        .div-white{
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div class="container">
+            <div class="div-white">
+            <div class="form">
+                <h4>Subscribe to get access to exclusive coding tutorials, tips, and tricks!</h4>
+                <form action="#">
+                    <div class="form-group">
+                        <label for="firstname">First Name: </label> <br>
+                        <input type="text" class="form-control"  name="firstname" id="firstname">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastname">Last Name: </label> <br>
+                        <input type="text" class="form-control"  name="lastname" id="lastname">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email: </label> <br>
+                        <input type="email" class="form-control"  name="email" id="email">
+                    </div>
+                    <div class="form-group">
+                        <button type="button" class="btn btn-purple">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
