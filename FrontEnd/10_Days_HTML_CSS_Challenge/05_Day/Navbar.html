@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        body {
+            background-color: #02001f;
+            height: 200vh;
+        }
+
+        header {
+            /* background-color: #171E3A; */
+            /* rgb(23, 30, 58) */
+            background-color: rgba(23, 30, 58, 0.7);
+            position: sticky;
+            top: 0;
+        }
+
+        #TopHeader ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 13px;
+        }
+
+        #TopHeader ul>li {
+            padding: 0 10px;
+            color: #62DEF0;
+            list-style: none;
+            font-weight: 600;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        hr {
+            color: #382fbd;
+        }
+
+        #SecondBottomHeader ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 13px;
+        }
+
+        #SecondBottomHeader ul>li {
+            padding: 0 10px;
+            color: white;
+            list-style: none;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav id="TopHeader">
+            <ul>
+                <li>Home</li>
+                <li>Showcase</li>
+                <li>Pricing</li>
+            </ul>
+        </nav>
+        <hr>
+        <nav id="SecondBottomHeader">
+            <ul>
+                <li>Eligiblity</li>
+                <li>Details</li>
+                <li>Curriculum</li>
+                <li>Mentor</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+</body>
+
+</html>

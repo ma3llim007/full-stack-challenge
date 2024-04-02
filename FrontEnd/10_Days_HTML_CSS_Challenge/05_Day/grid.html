@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 200px);
+            grid-auto-rows: 150px;
+            gap: 20px;
+            justify-content: center;
+            height: 80vh;
+            align-content: center;
+
+        }
+
+        .grid-item-one {
+            background-color: cyan;
+            width: 200px;
+            border: 1px solid black;
+            padding: 12px;
+        }
+
+        .grid-item-two {
+            background-color: cornflowerblue;
+            width: 200px;
+            border: 1px solid black;
+            padding: 12px;
+        }
+
+        .grid-item-three {
+            background-color: skyblue;
+            width: 200px;
+            border: 1px solid black;
+            padding: 12px;
+        }
+
+        .grid-item-four {
+            background-color: cyan;
+            width: 200px;
+            border: 1px solid black;
+            padding: 12px;
+        }
+
+        .grid-item-five {
+            background-color: cornflowerblue;
+            width: 200px;
+            border: 1px solid black;
+            padding: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <br><br><br><br><br>
+    <div class="grid-container">
+        <div class="grid-item grid-item-one">Grid Item One</div>
+        <div class="grid-item grid-item-two">Grid Item Two</div>
+        <div class="grid-item grid-item-three">Grid Item Three</div>
+        <div class="grid-item grid-item-four">Grid Item Three</div>
+        <div class="grid-item grid-item-five">Grid Item Three</div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Card In Html Using Gird</title>
+    <style>
+        body {
+            background-color: #02001f;
+            font-family: sans-serif;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 300px);
+            gap: 10px;
+            padding: 10px;
+            margin-top: 70px;
+            align-content: center;
+            height: 80vh;
+            justify-content: center;
+        }
+
+        .item {
+            background-color: #1B1A30;
+            border: 1px solid grey;
+            padding: 10px;
+        }
+
+        .item h3 {
+            color: rgb(103 232 249);
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 200;
+        }
+
+        .item p {
+            color: white;
+            line-height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item item-one">
+            <h3>Going deep into things</h3>
+            <p>We go beyond the surface-level tutorials and guide you through in-depth lessons that fill the gaps left
+                by quick-and-dirty tutorials.We go beyond the surface-level tutorials and guide you through in-depth
+                lessons that fill the gaps left
+                by quick-and-dirty tutorials.</p>
+        </div>
+        <div class="item item-two">
+            <h3>Smart Engineering with AI</h3>
+            <p>Our modern curriculum is specifically designed to equip you with the skills and knowledge needed to
+                leverage the potential of Generative AI and use it smartly and not blindly.We go beyond the
+                surface-level tutorials and guide you through in-depth lessons that fill the gaps left
+                by quick-and-dirty tutorials.</p>
+        </div>
+        <div class="item item-one">
+            <h3>Focus on building in public</h3>
+            <p>This program encourages and teaches you to build in public to level up your visibility to potential
+                recruiters and build credibility among your peers.We go beyond the surface-level tutorials and guide you
+                through in-depth lessons that fill the gaps left
+                by quick-and-dirty tutorials.</p>
+        </div>
+    </div>
+</body>
+
+</html>
