@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas></canvas>
+
+
+
+
+
+    <script>
+        let CanvasElement = document.querySelector("canvas");
+        CanvasElement.width = window.innerWidth - 50;
+        CanvasElement.height = window.innerHeight - 50;
+
+        let Canvas = CanvasElement.getContext('2d');
+        Canvas.fillStyle = "green"
+        Canvas.fillRect(100,100,100,100)
+        Canvas.fillRect(200,200,100,100)
+        Canvas.fillRect(300,300,100,100)
+        Canvas.fillRect(400,400,100,100)
+
+    </script>
+</body>
+
+</html>
