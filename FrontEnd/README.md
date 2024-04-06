@@ -8,5 +8,5 @@ Here, I'll be meticulously organizing and uploading all my front-end practice fi
 
 Folder Structure
 
-[10 Day Challenge Html And Css](10_Days_HTML_CSS_Challenge/)
-[07 Day Challenge Git And Github](07_days_git_github/)
+## [10 Day Challenge Html And Css](10_Days_HTML_CSS_Challenge/)
+## [07 Day Challenge Git And Github](07_days_git_github/)
