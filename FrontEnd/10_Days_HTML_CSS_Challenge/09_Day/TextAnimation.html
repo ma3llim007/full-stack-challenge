@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Animation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: monospace;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        .parent {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .child {
+            background-color: wheat;
+            color: black;
+            padding: 30px;
+            border-radius: 10px;
+            font-size: 25px;
+            font-weight: bolder;
+            animation: top-to-down 1s infinite ease-in;
+        }
+
+        @keyframes top-to-down {
+            0%,100%{
+                transform: translateY(0);
+            }
+            50%{
+                transform: translateY(200px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="child">
+            <h1>Mohd Sameer</h1>
+        </div>
+    </div>
+</body>
+
+</html>

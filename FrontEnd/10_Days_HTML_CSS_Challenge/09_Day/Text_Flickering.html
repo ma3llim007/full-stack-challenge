@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Flickering</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: monospace;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        .parent {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            animation: fleckering 1s infinite alternate;
+        }
+
+        @keyframes fleckering {
+            0%,100%{
+                opacity: 1;
+            }
+            50%{
+                opacity: 0.1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <h1>Mohd Sameer</h1>
+    </div>
+</body>
+
+</html>
